@@ -26,7 +26,7 @@ fn login_error_message(code: &ErrorCode) -> &'static str {
         TryAnotherAP => "Try another access point",
         BadConnectionId => "Bad connection ID",
         TravelRestriction => "Travel restriction",
-        PremiumAccountRequired => "Premium account required",
+        PremiumAccountRequired => "Premium account required", // Gotta put smthing here for that 
         BadCredentials => "Bad credentials",
         CouldNotValidateCredentials => "Could not validate credentials",
         AccountExists => "Account exists",

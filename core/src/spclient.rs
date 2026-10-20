@@ -468,7 +468,7 @@ impl SpClient {
             if options.metrics && !url.contains("product=0") {
                 let _ = write!(
                     url,
-                    "{}product=0&country={}",
+                    "{}product=1&country={}",
                     util::get_next_query_separator(&url),
                     self.session().country()
                 );

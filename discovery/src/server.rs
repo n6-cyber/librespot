@@ -114,7 +114,7 @@ impl RequestHandler {
             // TODO: bitmask but what are the flags?
             "supported_capabilities": 1,
             // undocumented but should still work
-            "accountReq": "PREMIUM",
+            "accountReq": "FREE",
             "activeUser": active_user,
             "aliases": self.config.aliases.iter().map(|alias| {
                 json!({

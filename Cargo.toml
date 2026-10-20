@@ -1,10 +1,10 @@
 [package]
 name = "librespot"
-version = "0.8.0"
+version = "0.0.1"
 rust-version.workspace = true
 authors.workspace = true
 license.workspace = true
-description = "An open source client library for Spotify, with support for Spotify Connect"
+description = "An open source client library for Spotify, with support for Spotify Connect, adjusted to be entirely FREE."
 keywords = ["audio", "spotify", "music", "streaming", "connect"]
 categories = ["multimedia::audio"]
 repository.workspace = true
@@ -195,9 +195,7 @@ act as a Spotify Connect receiver. It is an alternative to the official and now 
 deprecated closed-source libspotify. Additionally, it provides extra features \
 which are not available in the official library.
 .
-This package provides the librespot binary for headless Spotify Connect playback. \
-.
-Note: librespot only works with Spotify Premium accounts."""
+This package provides the librespot binary for headless Spotify Connect playback."""
 section = "sound"
 priority = "optional"
 assets = [
